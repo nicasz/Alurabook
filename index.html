@@ -16,45 +16,148 @@
     <header class="cabecalho">
         
         <div class="container">
-            <input type="checkbox" id="opcoes-menu" class="container__botao">
-            <label for="opcoes-menu" class="container__rotulo">
-                <li class="opcoes__item">Categorias</li>
-            </label>                
-        
-            <ul class="lista__menu">
-                <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Programação</a></li>        
-                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Front-end</a></li>
-                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Infraestrutura</a></li>
-                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Business</a></li>
-                 <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Design & UX</a></li>      
-                        
-            </ul> 
-                
-            <div class="container">
-                 <a href="#" class="container__link">
-                    <img class="container__imagem container__imagem--coracao" src="img/Favoritos.svg" alt="Meus favoritos"></a>
-                    
+            <input type="checkbox" id="menu" class="container__botao">
 
+            <label for="menu" class="container__rotulo">
+                <span class="cabecalho__menu-hamburguer container__imagem"></span>
+
+                
+            </label>                
+
+    
+        
+                <ul class="lista-menu">
+                        <li class="lista-menu__titulo">Categorias</li>
+
+                        <li class="lista-menu__item">
+                            <a href="#" class="lista-menu__link">Programação</a>
+                        </li>
+
+                        <li class="lista-menu__item">
+                            <a href="#" class="lista-menu__link">Front-end</a>
+                        </li>
+
+                        <li class="lista-menu__item">
+                            <a href="#" class="lista-menu__link">Infraestrutura</a>
+                        </li>
+
+                        <li class="lista-menu__item">
+                            <a href="#" class="lista-menu__link">Business</a>
+                        </li>
+                        
+                        <li class="lista-menu__item">
+                            <a href="#" class="lista-menu__link">Design & UX</a>
+                        </li>
+                        
+                </ul> 
+                  
 
             <a href="#"><img class="container__imagem" src="img/Logo.svg" alt="logo alura books"></a>
             <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1>
             </div>
 
+            
+            <ul class="opcoes">
+
+                <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+                <label for="opcoes-menu" class="opcoes__rotulo">
+                    <li class="opcoes__item">Categorias</li>
+                </label>
+
+                <ul class="lista__menu">
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Programação</a></li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Front-end</a></li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Infraestrutura</a></li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Business</a></li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Design & UX</a></li>
+                </ul>    
+
+                <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
+                <li class="opcoes__item"><a href="#" class="opcoes__link">Minha estante</a></li>
+            </ul>
 
             <div class="container">
+                <a href="#" class="container__link">
+                    <img class="container__imagem container__imagem--coracao" src="img/Favoritos.svg" alt="Meus favoritos"></a>
+                <a href="#" class="container__link">
+                    <img class="container__imagem" src="img/Compras.svg" alt="Carrinho de compras">
+                    <p class="container__texto">Minha sacola</p>
+                </a>
+                <a href="#" class="container__link">
+                    <img class="container__imagem" src="img/Usuario.svg" alt="meu perfil">
+                    <p class="container__texto">Meu perfil</p>
+                </a>
+            </div>
+     </header>
             
-                <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"></a>
-                <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras"></a>
-                <a href="#"><img src="img/Usuario.svg" alt="Meu perfil"></a>
-                
-            </div>       
 
-        </header>
+ 
+
+            <section class="banner">
+                <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+                <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+                <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+            </section>
+    
+            
+            <section class="carrossel">
+                <h2 class="carrossel__titulo">Novos lançamentos</h2>
+    
+                
+                <div class="carrossel__container">
+                    
+                    <div class="swiper">
+                        
+                        <div class="swiper-pagination"></div>
+                        
+                        <div class="swiper-wrapper">
+                           
+                            <div class="swiper-slide"><img src="img/livros/ApacheKafka.svg" alt="livro sobre apache ApacheKafka"></div>
+                            <div class="swiper-slide"><img src="img/livros/Liderança.svg" alt="livro sobre liderança"></div>
+                            <div class="swiper-slide"><img src="img/livros/Javascript.svg" alt="livro sobre javascript"></div>
+                            <div class="swiper-slide"><img src="img/livros/Guia Front-end.svg" alt="livro sobre Front-end"></div>
+                            <div class="swiper-slide"><img src="img/livros/Portugol.svg" alt="livro sobre portugol"></div>
+                            <div class="swiper-slide"><img src="img/livros/Acessibilidade.svg" alt="livro sobre Acessibilidade web"></div>
+                        </div>
+                    
+                        
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+
+            
+            <div class="card">
+
+                <div class="card_decricao">
+
+                    <div class="decricao">
+                        <h3 class="descricao__titulo">Talvez você também se interrese por...</h3>
+                        <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+                        <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma de Google.</p>
+                    </div>
+
+                    <img src="img/angular.svg" alt="imagem angular" clas="descricao_imagem">
+                </div>
+
+                <div class="card__botoes">
+                     
+                    <ul class="botoes">
+                        <li class="botoes__item"><img src="img/Favoritos.svg" alt="favoritos"></li>
+                        <li class="botoes__item"><img src="img/Compras.svg" alt="Aicionar no carrinho"></li>
+                    </ul>
+
+                    <a class="botoes__ancora" href="#">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+                    
 
 
         
